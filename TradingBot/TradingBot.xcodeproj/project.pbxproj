@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E426F9F5E5BAB30EAE41FAD /* Pods_TradingBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982BAE11EA508E9CB0DB97 /* Pods_TradingBot.framework */; };
+		8E1E7C6522A0F8E000C0337E /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E7C6422A0F8E000C0337E /* ChatModel.swift */; };
+		8E1E7C6C22A0FADA00C0337E /* MyChatTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E7C6A22A0FADA00C0337E /* MyChatTVCell.swift */; };
+		8E1E7C6D22A0FADA00C0337E /* MyChatTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E7C6B22A0FADA00C0337E /* MyChatTVCell.xib */; };
+		8E1E7C7022A0FB8300C0337E /* BotChatTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E7C6E22A0FB8300C0337E /* BotChatTVCell.swift */; };
+		8E1E7C7122A0FB8300C0337E /* BotChatTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E7C6F22A0FB8300C0337E /* BotChatTVCell.xib */; };
+		8E1E7C7322A1073E00C0337E /* OptionsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E7C7222A1073E00C0337E /* OptionsCVCell.swift */; };
+		8E4EDE4522A0E85C007C681C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE4422A0E85C007C681C /* AppDelegate.swift */; };
+		8E4EDE4722A0E85C007C681C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE4622A0E85C007C681C /* ViewController.swift */; };
+		8E4EDE4A22A0E85D007C681C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4EDE4822A0E85D007C681C /* Main.storyboard */; };
+		8E4EDE4C22A0E86D007C681C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4EDE4B22A0E86D007C681C /* Assets.xcassets */; };
+		8E4EDE4F22A0E86D007C681C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4EDE4D22A0E86D007C681C /* LaunchScreen.storyboard */; };
+		8E4EDE5922A0E987007C681C /* GenericNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE5722A0E987007C681C /* GenericNetworking.swift */; };
+		8E4EDE5A22A0E987007C681C /* Baseparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE5822A0E987007C681C /* Baseparser.swift */; };
+		8E4EDE5C22A0E99A007C681C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE5B22A0E99A007C681C /* Common.swift */; };
+		8E4EDE5F22A0EBCA007C681C /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE5E22A0EBCA007C681C /* LoginModel.swift */; };
+		8E4EDE6222A0ECF0007C681C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE6122A0ECF0007C681C /* ChatViewController.swift */; };
+		8E4EDE6522A0EFD7007C681C /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EDE6422A0EFD7007C681C /* extensions.swift */; };
+		99C58A3D22BB581D005DDD86 /* ChartsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C58A3B22BB581D005DDD86 /* ChartsTVCell.swift */; };
+		99C58A3E22BB581D005DDD86 /* ChartsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C58A3C22BB581D005DDD86 /* ChartsTVCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		023551BFD6746E2F0937E6C3 /* Pods-TradingBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradingBot/Pods-TradingBot.debug.xcconfig"; sourceTree = "<group>"; };
+		0E982BAE11EA508E9CB0DB97 /* Pods_TradingBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradingBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4118D9D405718D5C39936BAC /* Pods-TradingBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradingBot/Pods-TradingBot.release.xcconfig"; sourceTree = "<group>"; };
+		8E1E7C6422A0F8E000C0337E /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		8E1E7C6A22A0FADA00C0337E /* MyChatTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatTVCell.swift; sourceTree = "<group>"; };
+		8E1E7C6B22A0FADA00C0337E /* MyChatTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyChatTVCell.xib; sourceTree = "<group>"; };
+		8E1E7C6E22A0FB8300C0337E /* BotChatTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotChatTVCell.swift; sourceTree = "<group>"; };
+		8E1E7C6F22A0FB8300C0337E /* BotChatTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BotChatTVCell.xib; sourceTree = "<group>"; };
+		8E1E7C7222A1073E00C0337E /* OptionsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCVCell.swift; sourceTree = "<group>"; };
+		8E4EDE4122A0E85C007C681C /* TradingBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4EDE4422A0E85C007C681C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E4EDE4622A0E85C007C681C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E4EDE4922A0E85D007C681C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E4EDE4B22A0E86D007C681C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E4EDE4E22A0E86D007C681C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E4EDE5022A0E86D007C681C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4EDE5722A0E987007C681C /* GenericNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericNetworking.swift; sourceTree = "<group>"; };
+		8E4EDE5822A0E987007C681C /* Baseparser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Baseparser.swift; sourceTree = "<group>"; };
+		8E4EDE5B22A0E99A007C681C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		8E4EDE5E22A0EBCA007C681C /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8E4EDE6122A0ECF0007C681C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8E4EDE6422A0EFD7007C681C /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		99C58A3B22BB581D005DDD86 /* ChartsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsTVCell.swift; sourceTree = "<group>"; };
+		99C58A3C22BB581D005DDD86 /* ChartsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartsTVCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4EDE3E22A0E85C007C681C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E426F9F5E5BAB30EAE41FAD /* Pods_TradingBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857BBA15D95E39E0760D6AD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E982BAE11EA508E9CB0DB97 /* Pods_TradingBot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4EDE3822A0E85C007C681C = {
+			isa = PBXGroup;
+			children = (
+				8E4EDE4322A0E85C007C681C /* TradingBot */,
+				8E4EDE4222A0E85C007C681C /* Products */,
+				E040422B40E1860ABA6B8223 /* Pods */,
+				857BBA15D95E39E0760D6AD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4EDE4222A0E85C007C681C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EDE4122A0E85C007C681C /* TradingBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4EDE4322A0E85C007C681C /* TradingBot */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EDE6322A0EFD7007C681C /* extensions */,
+				8E4EDE6022A0ECCD007C681C /* ChatScreen */,
+				8E4EDE5D22A0EBB7007C681C /* Login */,
+				8E4EDE5B22A0E99A007C681C /* Common.swift */,
+				8E4EDE5622A0E987007C681C /* BaseClasses */,
+				8E4EDE4422A0E85C007C681C /* AppDelegate.swift */,
+				8E4EDE4822A0E85D007C681C /* Main.storyboard */,
+				8E4EDE4B22A0E86D007C681C /* Assets.xcassets */,
+				8E4EDE4D22A0E86D007C681C /* LaunchScreen.storyboard */,
+				8E4EDE5022A0E86D007C681C /* Info.plist */,
+			);
+			path = TradingBot;
+			sourceTree = "<group>";
+		};
+		8E4EDE5622A0E987007C681C /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EDE5722A0E987007C681C /* GenericNetworking.swift */,
+				8E4EDE5822A0E987007C681C /* Baseparser.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		8E4EDE5D22A0EBB7007C681C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EDE4622A0E85C007C681C /* ViewController.swift */,
+				8E4EDE5E22A0EBCA007C681C /* LoginModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8E4EDE6022A0ECCD007C681C /* ChatScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EDE6722A0F60B007C681C /* Models */,
+				8E4EDE6622A0F604007C681C /* Cells */,
+				8E4EDE6122A0ECF0007C681C /* ChatViewController.swift */,
+			);
+			path = ChatScreen;
+			sourceTree = "<group>";
+		};
+		8E4EDE6322A0EFD7007C681C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EDE6422A0EFD7007C681C /* extensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		8E4EDE6622A0F604007C681C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E7C6A22A0FADA00C0337E /* MyChatTVCell.swift */,
+				8E1E7C6B22A0FADA00C0337E /* MyChatTVCell.xib */,
+				8E1E7C6E22A0FB8300C0337E /* BotChatTVCell.swift */,
+				8E1E7C6F22A0FB8300C0337E /* BotChatTVCell.xib */,
+				8E1E7C7222A1073E00C0337E /* OptionsCVCell.swift */,
+				99C58A3B22BB581D005DDD86 /* ChartsTVCell.swift */,
+				99C58A3C22BB581D005DDD86 /* ChartsTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8E4EDE6722A0F60B007C681C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E7C6422A0F8E000C0337E /* ChatModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E040422B40E1860ABA6B8223 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				023551BFD6746E2F0937E6C3 /* Pods-TradingBot.debug.xcconfig */,
+				4118D9D405718D5C39936BAC /* Pods-TradingBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4EDE4022A0E85C007C681C /* TradingBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4EDE5322A0E86D007C681C /* Build configuration list for PBXNativeTarget "TradingBot" */;
+			buildPhases = (
+				AF7DEB9C36623CA55D6628F5 /* [CP] Check Pods Manifest.lock */,
+				8E4EDE3D22A0E85C007C681C /* Sources */,
+				8E4EDE3E22A0E85C007C681C /* Frameworks */,
+				8E4EDE3F22A0E85C007C681C /* Resources */,
+				EE429596BDD12E4553A7C2B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradingBot;
+			productName = TradingBot;
+			productReference = 8E4EDE4122A0E85C007C681C /* TradingBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4EDE3922A0E85C007C681C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Tradesocio;
+				TargetAttributes = {
+					8E4EDE4022A0E85C007C681C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E4EDE3C22A0E85C007C681C /* Build configuration list for PBXProject "TradingBot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E4EDE3822A0E85C007C681C;
+			productRefGroup = 8E4EDE4222A0E85C007C681C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4EDE4022A0E85C007C681C /* TradingBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4EDE3F22A0E85C007C681C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4EDE4F22A0E86D007C681C /* LaunchScreen.storyboard in Resources */,
+				8E1E7C6D22A0FADA00C0337E /* MyChatTVCell.xib in Resources */,
+				99C58A3E22BB581D005DDD86 /* ChartsTVCell.xib in Resources */,
+				8E4EDE4C22A0E86D007C681C /* Assets.xcassets in Resources */,
+				8E4EDE4A22A0E85D007C681C /* Main.storyboard in Resources */,
+				8E1E7C7122A0FB8300C0337E /* BotChatTVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF7DEB9C36623CA55D6628F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradingBot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE429596BDD12E4553A7C2B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingBot/Pods-TradingBot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingBot/Pods-TradingBot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradingBot/Pods-TradingBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4EDE3D22A0E85C007C681C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4EDE4722A0E85C007C681C /* ViewController.swift in Sources */,
+				8E1E7C6C22A0FADA00C0337E /* MyChatTVCell.swift in Sources */,
+				8E4EDE5F22A0EBCA007C681C /* LoginModel.swift in Sources */,
+				8E1E7C7022A0FB8300C0337E /* BotChatTVCell.swift in Sources */,
+				8E4EDE4522A0E85C007C681C /* AppDelegate.swift in Sources */,
+				99C58A3D22BB581D005DDD86 /* ChartsTVCell.swift in Sources */,
+				8E4EDE6522A0EFD7007C681C /* extensions.swift in Sources */,
+				8E4EDE6222A0ECF0007C681C /* ChatViewController.swift in Sources */,
+				8E4EDE5922A0E987007C681C /* GenericNetworking.swift in Sources */,
+				8E4EDE5C22A0E99A007C681C /* Common.swift in Sources */,
+				8E1E7C6522A0F8E000C0337E /* ChatModel.swift in Sources */,
+				8E4EDE5A22A0E987007C681C /* Baseparser.swift in Sources */,
+				8E1E7C7322A1073E00C0337E /* OptionsCVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E4EDE4822A0E85D007C681C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4EDE4922A0E85D007C681C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E4EDE4D22A0E86D007C681C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4EDE4E22A0E86D007C681C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4EDE5122A0E86D007C681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E4EDE5222A0E86D007C681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E4EDE5422A0E86D007C681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023551BFD6746E2F0937E6C3 /* Pods-TradingBot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SLDC9879M;
+				INFOPLIST_FILE = TradingBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tradesocio.DemoProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E4EDE5522A0E86D007C681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4118D9D405718D5C39936BAC /* Pods-TradingBot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SLDC9879M;
+				INFOPLIST_FILE = TradingBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tradesocio.DemoProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4EDE3C22A0E85C007C681C /* Build configuration list for PBXProject "TradingBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4EDE5122A0E86D007C681C /* Debug */,
+				8E4EDE5222A0E86D007C681C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4EDE5322A0E86D007C681C /* Build configuration list for PBXNativeTarget "TradingBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4EDE5422A0E86D007C681C /* Debug */,
+				8E4EDE5522A0E86D007C681C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4EDE3922A0E85C007C681C /* Project object */;
+}
